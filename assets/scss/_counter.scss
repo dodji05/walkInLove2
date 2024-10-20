@@ -1,0 +1,76 @@
+#counter-1{
+    
+    .single-counter-box {    
+        text-align: center;
+        @media #{$xs} {      
+            margin-bottom: 60px;      
+            text-align: center;
+        }
+        h6 {
+            font-size: 18px;
+            font-weight: 400;   
+            color: #fff;    
+            margin-bottom: 15px; 
+    
+            @media #{$xs} {            
+                font-size: 17px;
+            }
+        }
+        
+    }
+    
+    .single-counter-box .counter-number span {
+        font-size: 65px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        color: #fff;
+        
+        @media #{$lg} {
+            font-size: 60px;
+        }
+        @media #{$md} {
+            font-size: 50px;
+        }
+    
+        @media #{$xs} {
+            font-size: 50px;
+        }
+    }
+    
+    .single-counter-box p.counter-number {
+        font-size: 70px;
+        color: #fff;
+        margin: 0;
+        @media #{$lg} {
+            font-size: 65px;
+        }
+        @media #{$md} {
+            font-size: 55px;
+        }
+        @media #{$xs} {
+            font-size: 55px;
+        }
+        
+    }
+    
+    }
+
+    
+// Fun Fact Section 
+
+.funfact-section{
+    
+    .single-counter-item h6 {
+        color: #181D4E;
+        font-weight: 500;
+    }
+    .single-counter-item h1 {
+        color: #181D4E;
+        font-size: 60px;
+    }
+    .counter-content{
+        position: relative;
+        bottom: 0;
+    }
+}

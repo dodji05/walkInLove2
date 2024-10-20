@@ -1,0 +1,12 @@
+/* CTA Section  */
+
+.cta-btn{
+    @media #{$xs}{
+        margin-top: 20px;
+    }
+    
+}
+
+.cta-section .section-title {
+    margin-bottom: 0;
+}

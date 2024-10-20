@@ -1,0 +1,36 @@
+.client-content-wrap {
+    max-width: calc(100% - 65px);
+    @media #{$xs}{
+        max-width: calc(100% - 0px);
+        margin-top: 60px;
+    }
+}
+
+.contact-info-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    background: #FA4729;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact-text p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: $text_dark;
+}

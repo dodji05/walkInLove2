@@ -1,0 +1,36 @@
+.project-list button {
+    border: none;
+    margin: 0;
+    color: #333;
+    padding: 12px 33px;
+    border-right: 1px solid #ddd;
+
+    @media #{$xs} {        
+        margin: 10px 10px;
+    }
+}
+
+.project-list button:nth-of-type(3) {
+    border-right: none;
+}
+
+.project-list button.nav-link {
+    font-size: 18px;
+}
+
+.project-list button.nav-link.active {
+    background: #10102D;
+    color: #fff !important;
+}
+
+.project-list .nav-link:focus, .nav-link:hover{
+    color: #10102D;
+}
+
+.process-bg-wrap {
+    @media #{$xs} {
+        margin-top: 30px;        
+    }
+  }
+
+

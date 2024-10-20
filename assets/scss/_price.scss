@@ -1,0 +1,161 @@
+/* Price Section */
+
+.price-tab-wrap.gray-bg {
+    padding: 40px;
+    @media #{$md}{
+        margin-bottom: 30px;
+    }
+    @media #{$xs}{
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.price-feat-list {
+    margin-top: 30px;
+}
+
+.price-feat-list ul li {
+    display: block;
+    background: #fff;
+    padding: 15px;
+    @media #{$xs}{
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+.price-feat-list ul li:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.price-feat-list ul li i {
+    margin-right: 15px;
+    color: $theme-color;
+}
+
+.single-price-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+    padding: 33px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    @media #{$xs}{
+        display: block;
+        text-align: start;
+    }
+}
+
+.price-amount h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.price-amount h2 span {
+    font-size: 16px;
+    color: #616670;
+    margin-left: 6px;
+}
+
+.price-title h4 {
+    font-size: 32px;
+    font-weight: 600;
+    @media #{$xs}{
+        margin-top: 10px;
+    }
+}
+
+.price-coupon span {
+    font-size: 16px;
+    color: #616670;    
+}
+
+.price-tab .nav-tabs{
+    border-bottom: none;
+}
+
+.price-tab .nav-tabs .nav-link.active {
+    background: $theme-color;
+    border: 1px solid $theme-color;
+    color: #fff;
+}
+
+.price-tab .nav-tabs .nav-link {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    color: $text-dark;
+}
+
+// Price Page 
+
+.price-item-inner {
+    background: #fff;
+    text-align: center;
+    padding: 50px 40px 60px;
+  
+    .price-title h5 {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 34px;
+      margin: 20px 0;
+    }
+  
+    .price-amount {
+      margin-bottom: 50px;
+  
+      h1 {
+        font-size: 60px;
+        margin: 20px 0;
+      }
+  
+      h6 {
+        font-size: 18px;
+        color: #777;
+      }
+    }
+  
+    .price-feature {
+      margin-top: 40px;
+  
+      ul li {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 18px;
+  
+        i {
+          margin-right: 15px;
+  
+          &:before {
+            color: #FA4729;
+            font-size: 18px;
+            font-weight: 600;
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  
+    .price-btn {
+      margin-top: 40px;
+    }
+  }
+  
+  .single-price-item {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 60px;
+  
+    &.active {
+      margin-top: -20px;
+      padding: 20px 0;
+      background: #fff;
+      box-shadow: 0 23px 90px rgba(0, 0, 0, .05);
+      z-index: 9;
+      @media #{$md}, #{$xs}{
+        margin-top: 0;
+        padding: 0;
+      }
+    }
+  }
