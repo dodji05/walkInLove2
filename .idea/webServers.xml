@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5ef336b3-8c47-4ebd-8b4d-3d1c9822f2a1" name="WIL" url="http://walkinlove-llc.com">
+        <fileTransfer rootFolder="/domains/walkinlove-llc.com/public_html" host="walkinlove-llc.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
