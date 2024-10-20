@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /*
 Template Name: Nextrin
-Template URI: 
-Description: Construction HTML Template 
+Template URI:
+Description: Construction HTML Template
 Author: Capricorn Studio
-Author URI: 
+Author URI:
 Version: 1.0
  */
-/*-- Google Font Import 
+/*-- Google Font Import
 -----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 /*------------Typography----------------- */
@@ -37,7 +37,7 @@ h4,
 h5,
 h6 {
   position: relative;
-  /* color: #181D4E; */ 
+  /* color: #181D4E; */
   color:#e8ce6a;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -175,9 +175,9 @@ hr {
 }
 
 .section-title h1 {
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 600;
-  line-height: 80px;
+  line-height: 50px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-title h1 {
@@ -412,7 +412,7 @@ input.form-control {
   box-shadow: none;
 }
 
-/* Bacground Color & Overlay CSS 
+/* Bacground Color & Overlay CSS
 ============== */
 .theme-bg {
   background: #9f2323;
