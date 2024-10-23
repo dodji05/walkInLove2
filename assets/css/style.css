@@ -161,7 +161,8 @@ hr {
 /*Section Title */
 .section-title {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  /* margin-bottom: 30px; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title {
@@ -175,26 +176,29 @@ hr {
 }
 
 .section-title h1 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   line-height: 50px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-title h1 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 70px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title h1 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 70px;
   }
 }
 @media (max-width: 767px) {
   .section-title h1 {
-    font-size: 34px;
-    line-height: 44px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .language-picker__label {
+    color: #FFF;
   }
 }
 
@@ -221,7 +225,7 @@ hr {
 @media (max-width: 767px) {
   .section-title h2 {
     font-size: 32px;
-    line-height: 38px;
+    /* line-height: 38px; */
     margin: 15px 0;
   }
 }
@@ -244,7 +248,7 @@ hr {
 }
 @media (max-width: 767px) {
   .section-title h3 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
   }
 }
@@ -254,7 +258,7 @@ hr {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   opacity: 0.5;
 }
 
@@ -2271,7 +2275,7 @@ input[type=search]::-webkit-search-results-decoration {
   left: 0;
   width: 0%;
   height: 2px;
-  background: #171717;
+  background: #e8ce6a;
   visibility: hidden;
   opacity: 0;
   transition: all 0.5s ease 0s;
@@ -2287,7 +2291,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .main-menu ul li.active a {
-  color: #0F1526;
+  color: #e8ce6a;
 }
 
 .main-menu ul li.active:before {
@@ -2667,6 +2671,8 @@ input[type=search]::-webkit-search-results-decoration {
 }
 #home-1 .hero-area-content {
   padding-left: 80px;
+  margin-top: -300px;
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #home-1 .hero-area-content {
@@ -3160,10 +3166,12 @@ input[type=search]::-webkit-search-results-decoration {
   color: #9f2323;
 }
 #service-1 .single-service-item h4 {
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: -1px;
   margin: 30px 0px 20px;
+  color: #181D4E;
 }
 #service-1 .single-service-item:hover {
   background: #9f2323;
@@ -3230,7 +3238,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 @media (max-width: 767px) {
   .single-service-wrap h4 {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 .single-service-wrap .service-link {
@@ -3265,8 +3273,8 @@ input[type=search]::-webkit-search-results-decoration {
   }
 }
 .service-section.service-two .service-content {
-  padding: 40px;
-  padding-top: 20px;
+  padding: 22px;
+  padding-top: 15px;
 }
 .service-section.service-two .service-icon {
   margin-top: -40px;
@@ -5264,7 +5272,7 @@ button.mfp-arrow {
 
 /* Footer Area  */
 .footer-area {
-  background: #0F1526;
+  background: #6c757d;
   color: #fff;
   position: relative;
   z-index: -1;
@@ -5292,14 +5300,15 @@ button.mfp-arrow {
 }
 .footer-area h5 {
   font-size: 20px;
-  font-weight: 600;
-  color: #fff;
+  font-weight: 900;
+  color: #e8ce6a;
   margin: 20px 0;
 }
 .footer-area p {
   font-size: 16px;
   margin-top: 5px;
-  color: #9BA2AD;
+  /* color: #9BA2AD; */
+  color: #fff;
 }
 .footer-area ul li a {
   font-size: 17px;
@@ -5341,12 +5350,12 @@ button.mfp-arrow {
   font-size: 15px;
   font-weight: 400;
   padding: 20px 0;
-  background: #0F1526;
+  background: #fff;
   border-top: 1px solid #222;
 }
 .footer-bottom p {
   margin: 0;
-  color: #fff;
+  color: #000;
   font-size: 16px;
 }
 @media (max-width: 767px) {
@@ -5389,7 +5398,7 @@ button.mfp-arrow {
 }
 
 .slider_item h5 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   color: #fff;
 }
@@ -6107,7 +6116,7 @@ button.mfp-arrow {
 }
 
 .breadcrumb-area {
-  background-image: url(../img/bread-bg.png);
+  background-image: url(../img/bread-bg.jpg);
 }
 
 .breadcrumb-area {
@@ -6140,12 +6149,15 @@ button.mfp-arrow {
 }
 @media only screen and (min-width: 540px) and (max-width: 767px) {
   .breadcrumb-area .breadcrumb-title h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media (max-width: 767px) {
   .breadcrumb-area .breadcrumb-title h1 {
-    font-size: 40px;
+    font-size: 38px;
+  }
+  .breadcrumb-area {
+    height: auto;
   }
 }
 .breadcrumb-area .breadcrumb-icon i {

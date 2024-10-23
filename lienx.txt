@@ -1,2 +1,22 @@
 https://themepanthers.com/html/creote-html/home-5.html
 https://preview.themeforest.net/item/bizper-flask-consulting-business-template/full_screen_preview/54488850
+
+
+
+ <div class="language-picker">
+                        <div class="js">
+                            <div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle">
+                                <form action="" class="language-picker__form">
+                                    <label for="language-picker-select">Select your language</label>
+                                    <select name="language-picker-select" id="language-picker-select">
+                                        <option lang="en" value="english" selected="">English</option>
+                                        <option lang="fr" value="francais">Français</option>
+                                        <option lang="ar" value="العربية">العربية</option>
+                                    </select>
+                                </form>
+<!--                                <button class="language-picker__button btn btn&#45;&#45;subtle" aria-label="english Select your language" aria-expanded="true" aria-contols="language-picker-select-dropdown"><span aria-hidden="true" class="language-picker__label language-picker__flag language-picker__flag&#45;&#45;english"><em>English</em><svg viewBox="0 0 16 16" class="icon"><polygon points="3,5 8,11 13,5 "></polygon></svg></span></button><div class="language-picker__dropdown" aria-describedby="language-picker-select-description" id="language-picker-select-dropdown"><p class="sr-only" id="language-picker-select-description">Select your language</p><ul class="language-picker__list" role="listbox"><li><a lang="de" hreflang="de" href="#" role="option" data-value="deutsch" class="language-picker__item language-picker__flag language-picker__flag&#45;&#45;deutsch"><span>Deutsch</span></a></li><li><a lang="en" hreflang="en" href="#" aria-selected="true" role="option" data-value="english" class="language-picker__item language-picker__flag language-picker__flag&#45;&#45;english"><span>English</span></a></li><li><a lang="fr" hreflang="fr" href="#" role="option" data-value="francais" class="language-picker__item language-picker__flag language-picker__flag&#45;&#45;francais"><span>Français</span></a></li><li><a lang="it" hreflang="it" href="#" role="option" data-value="italiano" class="language-picker__item language-picker__flag language-picker__flag&#45;&#45;italiano"><span>Italiano</span></a></li></ul></div>-->
+                            </div>
+                        </div>
+                    </div>
+
+https://codyhouse.co/ds/components/app/language-picker

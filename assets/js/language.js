@@ -20,281 +20,6 @@
 
         },
 
-        swiperJs: function () {
-            $(document).ready(function(){
-                var swiper = new Swiper(".mySwiper-banner-one", {
-                    spaceBetween: 0,
-                    slidesPerView: 1,
-                    speed: 500,
-                    effect: 'slide',
-                    fadeEffect: {
-                        crossFade: true
-                    },
-                    loop: true,
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                });
-            });
-
-            $(document).ready(function(){
-                var swiper = new Swiper(".mySwiper-banner-one-construction", {
-                    spaceBetween: 0,
-                    slidesPerView: 1,
-                    effect: 'fade',
-                    speed: 500,
-                    fadeEffect: {
-                        crossFade: true
-                    },
-                    pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true,
-                    },
-                    loop: true,
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                });
-            });
-
-            $(document).ready(function() {
-                // Swiper: Slider
-                new Swiper('.swiper-container-style-two', {
-                    loop: true,
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                    slidesPerView: 2,
-                    paginationClickable: true,
-                    spaceBetween: 20,
-                    breakpoints: {
-                        1920: {
-                            slidesPerView: 2,
-                            spaceBetween: 30
-                        },
-                        1028: {
-                            slidesPerView: 2,
-                            spaceBetween: 30
-                        },
-                        480: {
-                            slidesPerView: 1,
-                            spaceBetween: 10
-                        },
-                        0: {
-                            slidesPerView: 1,
-                            spaceBetween: 10
-                        }
-                    }
-                });
-            });
-            $(document).ready(function() {
-                // Swiper: Slider
-                new Swiper('.mySwiper-recent-product', {
-                    loop: true,
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                    slidesPerView: 3,
-                    paginationClickable: true,
-                    spaceBetween: 20,
-                    breakpoints: {
-                        1920: {
-                            slidesPerView: 3,
-                            spaceBetween: 30
-                        },
-                        1028: {
-                            slidesPerView: 2,
-                            spaceBetween: 30
-                        },
-                        480: {
-                            slidesPerView: 1,
-                            spaceBetween: 10
-                        },
-                        0: {
-                            slidesPerView: 1,
-                            spaceBetween: 10
-                        }
-                    }
-                });
-            });
-
-            $(document).ready(function() {
-                var Swipes = new Swiper('.swiper-container-three', {
-                    effect: 'fade',
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                    },
-                    pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true,
-                    },
-
-                    loop: true,
-                    speed: 2000,
-                    autoplay: {
-                        delay: 6000,
-                    },
-                });
-            });
-
-            $(document).ready(function () {
-                var swiper = new Swiper(".mySwiper-portfolio-1", {
-                    slidesPerView: 5,
-                    spaceBetween: 30,
-                    loop: true,
-                    centeredSlides: true,
-                    speed: 2000,
-                    autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                    // loopFillGroupWithBlank: true,
-                    pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,
-                    },
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                    breakpoints: {
-                        1500: {
-                            slidesPerView: 5,
-                        },
-                        1199: {
-                            slidesPerView:3,
-                        },
-                        991: {
-                            slidesPerView: 3,
-                        },
-                        767: {
-                            slidesPerView: 2,
-                        },
-                        575: {
-                            slidesPerView: 1,
-                        },
-                        0: {
-                            slidesPerView: 1,
-                        }
-                    },
-                });
-            });
-            $(document).ready(function () {
-                var swiper = new Swiper(".mySwiper-portfolio-2-cons", {
-                    slidesPerView: 4,
-                    spaceBetween: 30,
-                    loop: true,
-                    centeredSlides: true,
-                    speed: 2000,
-                    autoplay: {
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    },
-                    // loopFillGroupWithBlank: true,
-                    pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,
-                    },
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                    breakpoints: {
-                        1500: {
-                            slidesPerView: 4,
-                        },
-                        1199: {
-                            slidesPerView:3,
-                        },
-                        991: {
-                            slidesPerView: 3,
-                        },
-                        767: {
-                            slidesPerView: 2,
-                        },
-                        575: {
-                            slidesPerView: 1,
-                        },
-                        0: {
-                            slidesPerView: 1,
-                        }
-                    },
-                });
-            });
-            $(document).ready(function () {
-                var swiper = new Swiper(".swiper-startup-banner", {
-                    slidesPerView: 1,
-                    spaceBetween: 0,
-                    loop: true,
-                    centeredSlides: true,
-                    speed: 500,
-                    autoplay: {
-                        delay: 5000,
-                        disableOnInteraction: false,
-                    },
-                    // loopFillGroupWithBlank: true,
-                    pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,
-                    },
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                });
-            });
-            $(document).ready(function () {
-                var swiper = new Swiper(".swiper-startup-banner-construction", {
-                    slidesPerView: 1,
-                    spaceBetween: 0,
-                    loop: true,
-                    centeredSlides: true,
-                    speed: 500,
-                    effect: 'fade',
-                    // autoplay: {
-                    //   delay: 5000,
-                    //   disableOnInteraction: false,
-                    // },
-                    // loopFillGroupWithBlank: true,
-                    pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,
-                    },
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                });
-            });
-            $(document).ready(function () {
-                var swiper = new Swiper(".my-swiper-product-details", {
-                    slidesPerView: 1,
-                    spaceBetween: 0,
-                    loop: true,
-                    centeredSlides: true,
-                    speed: 500,
-                    autoplay: {
-                        delay: 5000,
-                        disableOnInteraction: false,
-                    },
-                    // loopFillGroupWithBlank: true,
-                    pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,
-                    },
-                    navigation: {
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                    },
-                });
-            });
-
-        },
 
         // prograss bar Start
         progressAvtivation: function(){
@@ -585,13 +310,29 @@
                     } else {
                         label = picker.select.querySelector('option[selected]').text;
                     }
+                    console.log(label)
                     return label;
                 };
 
                 function getLanguageUrl(option) {
                     // ⚠️ Important: You should replace this return value with the real link to your website in the selected language
                     // option.value gives you the value of the language that you can use to create your real url (e.g, 'english' or 'italiano')
-                    return '#';
+                 var url= '';
+
+                 const pathname = window.location.pathname;
+                 const page = pathname.substring(pathname.lastIndexOf('/') + 1);
+                    var baseUrl = window.location.origin;
+
+                    if (option.value === 'francais'){
+                        url = baseUrl+"/fr/"+page
+
+                    } else if(option.value === 'العربية'){
+                        url = baseUrl+"/ar/"+page
+                    } else {
+                        url ="/"+page
+                    }
+                   
+                    return url;
                 };
 
                 function initLanguageSelection(picker) {
@@ -601,18 +342,27 @@
 
                         if(language.hasAttribute('aria-selected') && language.getAttribute('aria-selected') == 'true') {
                             // selecting the same language
-                            event.preventDefault();
+                             event.preventDefault();
                             picker.trigger.setAttribute('aria-expanded', 'false'); // hide dropdown
-                        } else {
-                            // ⚠️ Important: this 'else' code needs to be removed in production.
-                            // The user has to be redirected to the new url -> nothing to do here
-                            event.preventDefault();
-                            picker.element.getElementsByClassName('language-picker__list')[0].querySelector('[aria-selected="true"]').removeAttribute('aria-selected');
-                            language.setAttribute('aria-selected', 'true');
-                            picker.trigger.getElementsByClassName('language-picker__label')[0].setAttribute('class', 'language-picker__label language-picker__flag language-picker__flag--'+language.getAttribute('data-value'));
-                            picker.trigger.getElementsByClassName('language-picker__label')[0].getElementsByTagName('em')[0].innerText = language.innerText;
-                            picker.trigger.setAttribute('aria-expanded', 'false');
                         }
+                        // else {
+                        //     // Nouvelle logique pour rediriger vers une URL basée sur la langue sélectionnée
+                        //     event.preventDefault();
+                        //
+                        //     // Récupérer l'URL associée à la langue sélectionnée
+                        //     var languageValue = language.getAttribute('data-value');
+                        //     var redirectUrl = getLanguageUrl(language); // Fonction qui renvoie l'URL associée à la langue
+                        //
+                        //     // Mettre à jour l'interface (label et icône)
+                        //     picker.element.getElementsByClassName('language-picker__list')[0].querySelector('[aria-selected="true"]').removeAttribute('aria-selected');
+                        //     language.setAttribute('aria-selected', 'true');
+                        //     picker.trigger.getElementsByClassName('language-picker__label')[0].setAttribute('class', 'language-picker__label language-picker__flag language-picker__flag--'+languageValue);
+                        //     picker.trigger.getElementsByClassName('language-picker__label')[0].getElementsByTagName('em')[0].textContent = language.textContent;
+                        //     picker.trigger.setAttribute('aria-expanded', 'false');
+                        //
+                        //     // Rediriger vers l'URL de la langue sélectionnée
+                        //     window.location.href = redirectUrl;
+                        // }
                     });
                 };
 

@@ -75,8 +75,8 @@
     dots: false,
     nav: true,
     loop: true,
-    autoplay: false,
-    autoplayTimeout: 5000,
+    autoplay: true,
+    autoplayTimeout: 8000,
     animateIn: "fadeIn",
     smartSpeed: 2000,
     slideSpeed: 600,
@@ -89,6 +89,7 @@
         items: 1,
         nav: false,
         dots: false,
+
       },
       600: {
         items: 1,
@@ -224,11 +225,13 @@
       0: {
         items: 1,
         dots: true,
+        stagePadding: 50,
       },
 
       575: {
         items: 1,
         nav: false,
+        stagePadding: 50,
       },
 
       767: {

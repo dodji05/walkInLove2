@@ -187,3 +187,10 @@
     margin-right: 0.25rem;
     margin-right: var(--space-xxxs);
 }
+
+@media (max-width: 767px) {
+   
+    .language-picker__label {
+      color: #FFF;
+    }
+  }
